@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>مصنع الصروح للصناعات البلاستيكية | الزاوية - ليبيا</title>
+
+<!-- SEO -->
+<meta name="description" content="مصنع الصروح للصناعات البلاستيكية في الزاوية - ليبيا. أكياس بلاستيك، تغليف، إعادة تدوير بجودة عالية وأسعار منافسة.">
+<meta name="keywords" content="مصنع البلاستيك ليبيا, أكياس بلاستيك الزاوية, تغليف ليبيا, الصروح">
+<meta name="author" content="Al Sorouh Factory">
+
+<!-- Open Graph -->
+<meta property="og:title" content="مصنع الصروح للصناعات البلاستيكية">
+<meta property="og:description" content="جودة عالية - أسعار منافسة - توريد سريع في ليبيا">
+<meta property="og:type" content="website">
+
+<!-- Bootstrap -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Icons -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+
+<!-- AOS Animation -->
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+<!-- Font -->
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;600;800&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg fixed-top glass">
+  <div class="container">
+    <a class="navbar-brand fw-bold text-warning" href="#">مصنع صُروح </a>
+
+    <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav">
+      <i class="bi bi-list text-white"></i>
+    </button>
+
+    <div id="nav" class="collapse navbar-collapse">
+      <ul class="navbar-nav ms-auto">
+        <li><a class="nav-link" href="#home">الرئيسية</a></li>
+        <li><a class="nav-link" href="#products">المنتجات</a></li>
+        <li><a class="nav-link" href="#clients">عملائنا</a></li>
+        <li><a class="nav-link" href="#location">الموقع</a></li>
+        <li><a class="nav-link" href="#contact">تواصل</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section id="home" class="hero">
+  <div class="overlay"></div>
+
+  <div class="container hero-wrapper">
+
+    <!-- TEXT -->
+    <div class="hero-text" data-aos="fade-right">
+
+      <!-- LOGO -->
+      <img src="633910261_122101255137255806_2618377308614356304_n.png" class="hero-logo">
+
+      <h1>مصنع صُروح التنمية</h1>
+
+      <p>
+      مصنع متخصص للأكياس البلاستيكية ، بِـكافة أنواعها .  
+
+      <br>
+        الزاوية الجودائم - ليبيا
+      </p>
+
+      <a href="#contact" class="btn btn-warning btn-lg mt-3">
+        اطلب الان
+      </a>
+
+    </div>
+
+    <!-- IMAGE -->
+    <div class="hero-image" data-aos="fade-left">
+      <img src="images (2).jpeg" alt="صورة مصنع الصروح">
+    </div>
+
+  </div>
+</section>
+
+<!-- PRODUCTS -->
+<section id="products" class="py-5 text-center">
+  <div class="container">
+    <h2 data-aos="fade-up">منتجاتنا</h2>
+
+    <div class="row g-4 mt-4">
+
+      <div class="col-md-4" data-aos="fade-up">
+        <div class="card p-4 glass-card">
+          <i class="bi bi-bag-fill icon"></i>
+          <h5>أكياس بلاستيك</h5>
+        </div>
+      </div>
+
+      <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+        <div class="card p-4 glass-card">
+          <i class="bi bi-box-seam icon"></i>
+          <h5>تغليف احترافي</h5>
+        </div>
+      </div>
+
+      <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+        <div class="card p-4 glass-card">
+          <i class="bi bi-recycle icon"></i>
+          <h5>إعادة تدوير</h5>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- CLIENTS -->
+<section id="clients" class="py-5 bg-dark text-center text-white">
+  <div class="container">
+    <h2 data-aos="fade-up">أهم عملائنا</h2>
+
+    <div class="row mt-4 g-3">
+      <div class="col-6 col-md-3" data-aos="zoom-in"><img src="485693542_122217789050223828_44738215355290897_n.Jpg" class="img-fluid"></div>
+      <div class="col-6 col-md-3" data-aos="zoom-in"><img src="f.png" class="img-fluid"></div>
+      <div class="col-6 col-md-3" data-aos="zoom-in"><img src="382724971_1618835248525221_1658896927553106199_n.Jpg" class="img-fluid"></div>
+      <div class="col-6 col-md-3" data-aos="zoom-in"><img src="t.png" class="img-fluid"></div>
+    </div>
+  </div>
+</section>
+
+<!-- LOCATION -->
+<section id="location" class="py-5 text-center">
+  <div class="container">
+    <h2 data-aos="fade-up">موقعنا</h2>
+    <p>الزاوية الجودائم - ليبيا</p>
+
+    <iframe 
+      data-aos="fade-up"
+      src="https://maps.google.com/maps?q=zawiya%20libya&t=&z=13&ie=UTF8&iwloc=&output=embed"
+      width="100%" height="300" style="border:0;border-radius:12px;">
+    </iframe>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="py-5 text-center">
+  <div class="container">
+    <h2 data-aos="fade-up">تواصل معنا</h2>
+
+    <form onsubmit="sendWhatsApp(event)" data-aos="zoom-in">
+      <input class="form-control my-2" id="name" placeholder="الاسم" required>
+      <input class="form-control my-2" id="phone" placeholder="رقم الهاتف" required>
+      <textarea class="form-control my-2" id="msg" placeholder="تفاصيل الطلب"></textarea>
+
+      <button class="btn btn-warning w-100">إرسال واتساب</button>
+    </form>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="text-center p-3 text-white bg-black">
+  © مصنع الصروح - الزاوية الجودائم - ليبيا
+</footer>
+
+<!-- WhatsApp -->
+<a href="https://wa.me/2189XXXXXXXX" class="whatsapp">
+  <i class="bi bi-whatsapp"></i>
+</a>
+
+<!-- Scripts -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- AOS -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+<script>
+AOS.init({ duration: 1000 });
+
+function sendWhatsApp(e){
+  e.preventDefault();
+  let name = document.getElementById('name').value;
+  let phone = document.getElementById('phone').value;
+  let msg = document.getElementById('msg').value;
+
+  let url = `https://wa.me/218947085050?text=الاسم:${name}%0Aالهاتف:${phone}%0Aالطلب:${msg}`;
+  window.open(url, '_blank');
+}
+</script>
+
+</body>
+</html>

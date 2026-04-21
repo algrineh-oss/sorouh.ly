@@ -1,0 +1,193 @@
+:root {
+  --main: #292C35;
+  --dark: #1f222a;
+  --gold: #BAAA88;
+  --gold-hover: #a8956e;
+  --white: #ffffff;
+  --gray: #9aa0a6;
+}
+
+body {
+  font-family: 'Cairo';
+  background: var(--main);
+  color: var(--white);
+}
+
+/* Navbar */
+.navbar {
+  background: rgba(0,0,0,0.7);
+  backdrop-filter: blur(10px);
+}
+
+.navbar-brand {
+  color: var(--gold) !important;
+}
+
+/* HERO */
+.hero{
+  min-height:100vh;
+  position:relative;
+  display:flex;
+  align-items:center;
+  background:#0b0b0b;
+  overflow:hidden;
+}
+
+/* OVERLAY */
+.overlay{
+  position:absolute;
+  width:100%;
+  height:100%;
+  background:linear-gradient(90deg, rgba(0,0,0,0.9), rgba(0,0,0,0.4));
+  z-index:1;
+}
+
+/* WRAPPER */
+.hero-wrapper{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:50px;
+  position:relative;
+  z-index:2;
+  padding-top:90px;
+}
+
+/* TEXT */
+.hero-text{
+  flex:1;
+  color:white;
+}
+
+.hero-text h1{
+  font-size:45px;
+  font-weight:800;
+  line-height:1.4;
+}
+
+.hero-text p{
+  color:#cfcfcf;
+  margin-top:15px;
+  font-size:18px;
+}
+
+/* LOGO */
+.hero-logo{
+  width:150px;
+  margin-bottom:20px;
+  filter: drop-shadow(0 5px 20px rgba(255,193,7,0.5));
+}
+
+/* IMAGE */
+.hero-image{
+  flex:1;
+  display:flex;
+  justify-content:center;
+}
+
+.hero-image img{
+  width:100%;
+  max-width:480px;
+  border-radius:18px;
+  box-shadow:0 25px 60px rgba(0,0,0,0.7);
+  transition:0.5s;
+}
+
+/* HOVER */
+.hero-image img:hover{
+  transform:scale(1.05);
+}
+
+/* RESPONSIVE */
+@media(max-width:768px){
+  .hero-wrapper{
+    flex-direction:column;
+    text-align:center;
+    gap:25px;
+  }
+
+  .hero-text h1{
+    font-size:30px;
+  }
+
+  .hero-image img{
+    max-width:320px;
+  }
+}
+
+/* Icons */
+.icon {
+  font-size: 40px;
+  color: var(--gold);
+  margin-bottom: 10px;
+}
+
+/* Cards */
+.card {
+  background: var(--dark);
+  border: none;
+  color: var(--white);
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 0 20px var(--gold);
+}
+
+/* CTA */
+.cta {
+  background: linear-gradient(45deg, #000, var(--gold));
+  padding: 60px;
+}
+
+/* Buttons */
+.btn-warning {
+  background: var(--gold);
+  border: none;
+  color: black;
+}
+
+.btn-warning:hover {
+  background: var(--gold-hover);
+}
+
+/* Footer */
+footer {
+  background: black;
+}
+
+/* WhatsApp */
+.whatsapp {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: var(--gold);
+  color: black;
+  padding: 15px;
+  border-radius: 50%;
+  font-size: 22px;
+  box-shadow: 0 0 15px var(--gold);
+}
+
+/* Navbar Links */
+.nav-link {
+  color: white !important;
+  margin: 0 10px;
+}
+
+.nav-link:hover {
+  color: var(--gold) !important;
+}
+
+/* Client Logos */
+.client-logo {
+  max-height: 60px;
+  opacity: 0.7;
+  transition: 0.3s;
+}
+
+.client-logo:hover {
+  opacity: 1;
+  transform: scale(1.1);
+}
